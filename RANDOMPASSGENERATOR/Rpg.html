@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Rpg.css">
+</head>
+<body>
+    <div class="container">
+        <h2>GENERATE A </h2>
+        <h1>RANDOM PASSWORD</h1>
+        <div class="input">
+            <input type="text" placeholder="Your Password" id="passwordinput">
+            <i><img src="copy-icon-4804.png" alt="" onclick="copied()"></i>
+        </div>
+        <div class="options">
+             <div class="text">
+                <p>PASSWORD LENGTH</p> <input type="number" id="passlength">
+             </div>
+             <div class="text">
+                <p>INCLUDING UPPERCASE</p> <input type="checkbox" id="upper">
+             </div>
+             <div class="text">
+                <p>INCLUDING LOWERCASE</p> <input type="checkbox" id="lower">
+             </div>
+             <div class="text">
+                <p>INCLUDING NUMBER</p> <input type="checkbox" id="num">
+             </div>
+             <div class="text">
+                <p>INCLUDING SYMBOL</p> <input type="checkbox" id="sym">
+             </div>
+        </div>
+        <div class="btn">
+            <button id="generate" onclick="myfun()">GENERATE</button>
+            
+        </div>
+        
+    </div>
+    <script src="Rpg.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.buttons{
+    margin: 50% 20%;
+
+}
+.button{
+    border:solid black 3px;
+    height: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+#pink{
+    background-color: pink;
+}
